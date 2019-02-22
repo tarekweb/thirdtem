@@ -1,0 +1,161 @@
+.container {
+    width: 1200px;
+    margin: auto
+}
+ .hidden {
+     display: none ;
+ }
+.textc {
+    text-align: center
+}
+.hide {
+    background-color: rgba(46, 52, 58, .70) ;
+     
+}
+.subsc {
+    background-image: url(../images/tablet.png) ;
+    -webkit-background-size: cover ;
+    -o-background-size: cover ;
+    -moz-background-size: cover ;
+    background-size: cover  ; 
+    margin-top: 20px
+    
+    }
+ 
+.container form button {
+    margin: 80px 0 ;
+    padding: 8px 0;
+    width:  150px ;
+    text-transform: uppercase ;
+    background: transparent ;
+    border-radius: 10px ;
+    color: #FFF ;
+    border: 1px solid #FFF 
+}
+
+button:hover {
+    background-color: #f7600e ;
+    color: #FFF ;
+    border: 1px solid #f7600e ;
+    transition: all .5s ease-in-out 
+}
+
+input {
+    border-radius: 10px ;
+    padding: 8px;
+    margin-right: 15px ;
+     width: 280px ;
+     font-size: 13px
+
+}
+ 
+.ourw {
+    margin: 60px 0
+
+}
+
+.ourw h2 {
+    text-transform: uppercase ;
+    font-size: 30px ;
+    margin: 0 ;
+    padding: 0  ;
+    font-weight: normal ;
+     
+}
+ 
+.texto {
+    color: #f7600e
+}
+.ourw p {
+     
+    font-size: 15px ;
+    line-height: 1.5 ;
+    color: #6c7279
+  }
+
+ 
+.imag-box .item {
+      float: left ;
+      width: 30%;
+      margin: 1.33% ;
+      overflow: hidden ;
+      border-radius: 15px ;
+      position: relative
+      transform: scaleX(-1);
+  }
+  
+  .imag-box .item:hover {
+  
+    transform: scaleX(-1);
+}
+
+  .imag-box .item .over {
+      position: absolute ;
+      top: 0 ;
+      left: 0 ;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(235, 96, 20, .8);
+      color: #FFF ;
+      display: none ;
+    
+}
+
+.imag-box .item:hover .over {
+    display: block   
+}
+
+.imag-box .item h2 {
+    margin-top: 80px ;
+    text-transform: uppercase; 
+    font-weight: 600 ;
+    }
+
+.imag-box .item p {
+       line-height: 1.5 ;
+       font-size: 15px ;
+       margin-bottom: 60px
+        }
+
+.imag-box .item button {
+            background: transparent ;
+            padding: 8px;
+            width: 180px ;
+            text-transform: uppercase ;
+            color: #FFF;
+            border: 1px solid #FFF ;
+            border-radius: 10px ;
+            font-size: 13px
+        }
+
+        .imag-box .item button:hover {
+            background: #FFF ;
+            color:#f7600e;
+            border: 1px solid #FFF ;
+           font-weight: bolder
+          
+        }
+
+        .tect {
+            margin: 80px 0 ;
+            background-color: orangered ;
+            color: #FFF ;
+            padding: 10px ;
+            width: 100px ;
+            border-radius: 15px ;
+          /*  
+            animation-name: exemple ; 
+            animation-duration: 2s ; 
+            animation-delay: 2s ;
+            animation-iteration-count: infinite; */
+            
+        } 
+         /* @keyframes  exemple{
+             from {background-color:orangered;}
+            to {background-color: black;} 
+
+            from { width: 100px;}
+            to {width: 300px ; font-size: 30px}
+    }
+        */
+        
